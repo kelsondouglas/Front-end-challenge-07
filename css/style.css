@@ -270,10 +270,13 @@ footer > p {
         margin-bottom: 80px;
     }
 
+    .cards {
+        padding: 100px 10px;
+        padding-bottom: 160px;
+    }
     .card {
         height: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 1fr;
         padding: 40px 80px;
     }
 
