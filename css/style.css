@@ -296,3 +296,43 @@ footer > p {
     }
 
 }
+
+@media (max-width: 600px) {
+
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header img {
+        max-width: 100px;
+    }
+
+    .header a {
+        height: 50px;
+        padding: 15px 0;
+    }
+
+    header a.btn-header {
+        width: 120px;
+        font-size: .9rem;
+    }
+
+    .get-started {
+        left: 10px;
+        width: 350px;
+    }
+
+    .get-started h1 {
+        font-size: 1.2rem;
+    }
+
+    .get-started a {
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    footer {
+        padding: 180px 10px 60px 10px;
+    }
+}
